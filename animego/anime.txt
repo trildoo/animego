@@ -1,4 +1,2 @@
 ************ IMPORTANT ************* 
 This project was made solely by me the creator.For any questions email me at tkardaras1@gmail.com ;D
-title:gosick
-episode:1
