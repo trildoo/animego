@@ -10,7 +10,7 @@ import java.net.URISyntaxException;
 public class AMQ   extends JFrame implements ActionListener {
     JButton button3 = new JButton() ;
     AMQ(){
-        ImageIcon icon3 = new ImageIcon("C:\\Users\\tkard\\Downloads\\yato(1).png");
+        ImageIcon icon3 = new ImageIcon("Images\\yato(1).png");
         JButton button3 = new JButton();
 
         button3.setBounds(0, 0, 300, 400);
@@ -18,7 +18,7 @@ public class AMQ   extends JFrame implements ActionListener {
         button3.setText("I wanna play AMQ!");
         button3.setFocusable(false);
         button3.setIcon(icon3);
-        button3.setHorizontalTextPosition(JButton.CENTER);          //button position and customization
+        button3.setHorizontalTextPosition(JButton.CENTER);//button position and customization
         button3.setVerticalTextPosition(JButton.TOP);
         button3.setFont(new Font("Comic Sans", Font.BOLD, 25));
         button3.setBackground(Color.LIGHT_GRAY);

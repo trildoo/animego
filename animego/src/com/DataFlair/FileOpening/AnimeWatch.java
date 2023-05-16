@@ -63,7 +63,7 @@ public class AnimeWatch extends JFrame implements ActionListener
             "Hataraku-maou-sama"
     };
     AnimeWatch() {                                     //my constructor
-        ImageIcon icon1 = new ImageIcon("C:\\Users\\tkard\\Downloads\\anime02.jpg");
+        ImageIcon icon1 = new ImageIcon("Images\\anime02.jpg");
 
         JButton button1 = new JButton();//button instance
 
@@ -96,8 +96,6 @@ public class AnimeWatch extends JFrame implements ActionListener
         Desktop desk = Desktop.getDesktop();
 
         String title = JOptionPane.showInputDialog("what are we watching ?:");
-
-
         int episode = Integer.parseInt((JOptionPane.showInputDialog("Enter the anime episode you are about to watch:")));
 
         PrintWriter writer = null;
@@ -153,7 +151,6 @@ public class AnimeWatch extends JFrame implements ActionListener
                 throw new RuntimeException(e);
                 }
         }
-
     }
 }
 

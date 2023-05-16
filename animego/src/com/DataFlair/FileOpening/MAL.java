@@ -1,5 +1,4 @@
 package com.DataFlair.FileOpening;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,14 +7,13 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-
-public class MAL   extends JFrame implements ActionListener {
+public class MAL extends JFrame implements ActionListener {
     static String MAlurl;
 
 
     JButton button2 = new JButton() ;
     MAL(){
-        ImageIcon icon2 = new ImageIcon("C:\\Users\\tkard\\Downloads\\anime girl image java(1).jpg");
+        ImageIcon icon2 = new ImageIcon("Images\\anime girl image java(1).jpg");
         JButton button2 = new JButton();
 
         button2.setBounds(0, 0, 300, 500);
